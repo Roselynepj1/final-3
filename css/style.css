@@ -957,7 +957,7 @@ transform: translateY(-8px) rotate(-45deg);
   border-radius: 5px;
   cursor: pointer;
   /* max-width: 45%; */
-  height: 2vh;
+  height: 3vh;
   
 }
 .product_details button:hover{
