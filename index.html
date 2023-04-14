@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Rainy Jackets Online Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav-top">
+      <div>
+        <img src="images/all_Images/icons/RainyDays_Logo.png" alt="Logo" class="logo">
+      </div>
+      <div class="search-bar">
+        <form>
+          <input type="text" placeholder="Search">
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <div class="wishlist">
+        <a href="#"><i class="fas fa-heart"></i></a>
+      </div>
+      <div class="cartTop_Home">
+        <a href="./checkout.html">
+          <img src="images/all_Images/Icons/shopCart.png" alt="cartTop">
+        </a>
+      </div>
+      <!-- <div class="friends_icon">
+        <a href="#"><i class="fas fa-user"></i></a>
+      </div> -->
+      <div class="loginlogout">
+        <ul>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+      <!-- <div class="Register">
+          <a href="#">Register</i></a>
+        </div>
+        <div class="Login">
+          <a href="#">Login</i></a>
+        </div> -->
+    </div>
+     <!-- nav menu for desktop view -->
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./product.html">JACKETS</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Nav Bar -->
+    <div class="mobile-nav">
+      <!-- checkbox -->
+      <input id="menu-box" type="checkbox">
+      <label for="menu-box">
+    <!-- Hamburger menu button -->
+     <div class="Hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+     </div>
+    </label>
+     <!-- separate nav menu for the mobile device -->
+     <nav class="mobile-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./product.html">JACKETS</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+     </nav>
+      <!-- search bar for mobile -->
+    <div class="search-bar-mobile">
+      <form>
+        <input type="text" placeholder="Search">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    </div>
+    
+  </header>
+
+  <!-- MAIN CONTENT STARTS HERE -->
+  <main>
+    <section class="Top_HomeImgz">
+      <img id= "img1" src="images/all_Images/Images/HomeJackets/MenHomeJacket1.jpg" alt="1stImage">
+      <img id= "img2" src="images/all_Images/Images/HomeJackets/Femalejacket 2.jpg" alt="2ndImage">
+      <h1>FEEL SAFE FOREVER</h1>
+      <a href="./checkout.html"><button type="submit" class="intro_shop_btn">SHOP NOW</button></a>
+    </section>
+
+      <!-- Slider of gallery -->
+      <div class="slider_container">
+        <!-- slider for images -->
+        <div class="image_slides">
+          <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket1.png" alt="image1">
+          <img src="images/all_Images/Images/HomeJackets/OralJackets.jpg" alt="Image2">
+          <img src="images/all_Images/Images/HomeJackets/Rain_Home_2.1.jpg" alt="Image3">
+          <img src="images/all_Images/Images/FemaleJackets/LadyJacket2.jpg" alt="Image4">
+          <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket5.png" alt="Image5">
+          <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket4.png" alt="Image6">
+          <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket1.png" alt="image1">
+          <img src="images/all_Images/Images/HomeJackets/OralJackets.jpg" alt="Image2">
+          <img src="images/all_Images/Images/HomeJackets/Rain_Home_2.1.jpg" alt="Image3">
+          <img src="images/all_Images/Images/FemaleJackets/LadyJacket2.jpg" alt="Image4">
+          <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket5.png" alt="Image5">
+          <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket4.png" alt="Image6">
+        </div>
+        <!-- container for control buttons -->
+        <div class="control_arrows">
+          <button class="slider-control slider-control-prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="slider-control slider-control-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+
+    <!-- POPULAR block -->
+    <div class="popular_block">
+      <div class="popular">POPULAR</div>
+      <div class="rectangle"></div>
+    </div>
+    <!-- HOME IMAGES TO BE ADDED TO CART -->
+    <section id="home_products_grid">
+      <div class="home_image_products">
+        <img src="images/all_Images/Images/FemaleJackets/LadyJacket1.jpg" width="500" height="300" alt="home_pdt1">
+        <div class="product_details">
+          <p>kr.1100</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="home_image_products">
+        <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket3.png" alt="home_pdt2">
+        <div class="product_details">
+          <p>kr.1500</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="home_image_products">
+        <img src="images/all_Images/Images/FemaleJackets/LadyJacket2.jpg" alt="home_pdt3">
+        <div class="product_details">
+          <p>kr.2000</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="home_image_products">
+        <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket7.png" alt="home_pdt4">
+        <div class="product_details">
+          <p>kr.1800</p><a href="./checkout.html"><button>Add to Cart</button></a>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="home_image_products">
+        <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket2.png" alt="home_pdt5">
+        <div class="product_details">
+          <p>kr.1600</p><a href="./checkout.html"><button>Add to Cart</button></a> 
+          <i class="fas fa-heart"></i>
+        </div>
+      </div> 
+    </section>
+    <!-- mobile responsiveness -->
+    <section id="home_products_gridx">
+      <table>
+        <tr>
+         <td>
+          <div class="home_image_products">
+            <img src="images/all_Images/Images/FemaleJackets/LadyJacket1.jpg" width="500" height="300" alt="home_pdt1">
+            <div class="product_details">
+              <p>kr.1100</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+         </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="home_image_products">
+              <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket3.png" alt="home_pdt2">
+              <div class="product_details">
+                <p>kr.1500</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+          </td>
+         </tr>
+         <tr>
+          <td>
+            <div class="home_image_products">
+              <img src="images/all_Images/Images/FemaleJackets/LadyJacket2.jpg" alt="home_pdt3">
+              <div class="product_details">
+                <p>kr.2000</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+          </td>
+         </tr>
+         <tr>
+          <td>
+            <div class="home_image_products">
+              <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket7.png" alt="home_pdt4">
+              <div class="product_details">
+                <p>kr.1800</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+          </td>
+         </tr>
+         <tr>
+          <td>
+            <div class="home_image_products">
+              <img src="images/all_Images/Images/MaleJackets/RainyDays_Jacket2.png" alt="home_pdt5">
+              <div class="product_details">
+                <p>kr.1600</p> <a href="./checkout.html"><button>Add to Cart</button></a>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div> 
+          </td>
+         </tr>
+      </table>
+    </section>
+
+    <!-- Block of Home words -->
+    <section id="blog">
+      <div class="card-container">
+        <article class="article1">
+          <p>YOU CAN NEVER GO WRONG WITH THE RAINY DAYS JACKET.
+            RAINY DAYS JACKETS ARE UNISEX.</p>
+          <p>OUR JACKETS ARE MADE FROM THE FINEST AND ECHO FRIENDLY MATERIALS.</p>
+          <p>THEY ARE GENTLE TO THE SKIN, TOUGH ON EVERY WEATHER CONDITION AND PERFECT FOR EVERY OUTDOOR ACTIVITY.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <div class="testmony_heading"><h3><strong>Testimonials</strong></h3></div>
+    <!-- TestimonialCards -->
+    <div class="TestimonialCards">
+      <!-- card 1 -->
+      <div class="testimonial_card1">
+        <!-- testimony details -->
+        <div class="testimony_details">
+          <h2>Jordon Bonds</h2>
+          <p>Just got my 2 new jacket. Rain Days jackets are perfect</p>
+          <p>@JordanB17</p>
+        </div>
+        <!-- testimony_social_icons -->
+        <div class="testimony_social_icons">
+          <a href="https://www.facebook.com/selector.bless/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/producerbless/"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!-- testimony image -->
+        <div class="testimonial_image_container">
+          <img src="images/all_Images/Images/Testimony_pix/DSC_0504.JPG" alt="Jordon">
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="testimonial_card2">
+        <!-- testimony details -->
+        <div class="testimony_details">
+          <h2>Moses Havvy</h2>
+          <p>Yesterday my sister ordered a jacket from Rain Days and  you guys delivered in just 
+            30 minutes. Please try Rain Days Jackets</p>
+          <p>@MosesHavvy</p>
+        </div>
+        <!-- testimony_social_icons -->
+        <div class="testimony_social_icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!-- testimony image -->
+        <div class="testimonial_image_container">
+          <img src="images/all_Images/Images/Testimony_pix/IMG_0030_snaped.jpg" alt="Jordon">
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="testimonial_card3">
+        <!-- testimony details -->
+        <div class="testimony_details">
+          <h2>Bris Jonnes</h2>
+          <p>Rain Days Jackets value for money is paramount</p>
+          <p>@JonnesRis</p>
+        </div>
+        <!-- testimony_social_icons -->
+        <div class="testimony_social_icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!-- testimony image -->
+        <div class="testimonial_image_container">
+          <img src="images/all_Images/Images/Testimony_pix/Lady1.jpeg" alt="Jordon">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <!-- Add footer details here -->
+    <nav class="bottom-nav">
+      <div class="bottom-nav-container">
+        <!-- add bottom-nav details here -->
+        <div>
+          <!-- add logo here -->
+          <img src="images/all_Images/icons/RainyDays_Logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="useful-links">
+          <!-- add useful links -->
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="./FAQ.html">Frequently Asked Questions</a></li>
+            <li><a href="./privacy_policy.html">Privacy Policy</a></li>
+            <li><a href="./terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="social_media">
+          <!-- add social media clickable icons -->
+          <h4>Follow Us</h4>
+          <div class="social_icons">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="payments">
+          <!-- payment details -->
+          <div class="paywith">
+            <h4>Pay With</h4>
+          </div>
+           <!-- add payment method icons here -->
+           <div class="payments_container">
+            <div class="paypal">
+              <img src="images/all_Images/Icons/paypal-payment-icon-editorial-logo-free-vector.jpg" alt="paypal">
+            </div>
+            <div class="visa">
+              <img src="images/all_Images/Icons/png-clipart-mastercard-visa-bank-card-payment-mastercard-text-service.png" alt="visa">
+            </div>
+            <div class="klarna">
+              <img src="images/all_Images/Icons/klarna-og.png" alt="klarna">
+            </div>
+          </div>
+        </div>
+        
+        <div class="join-mail-list">
+          <!-- Add join-mailing list details -->
+          <h4>Join Our Mailing List</h4>
+          <form class="mail-list-form" action="#" method="post">
+            <label for="fullnames"><strong>Full Names</strong></label><br>
+            <input type="text" placeholder="Enter Your Names"><br>
+            <label for="EmailAddress"><strong>Email Address</strong></label><br>
+            <input type="email" placeholder="Enter Email Address"><br>
+            <br>
+            <button type="submit"><strong>Subscribe</strong></button>
+          </form>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- footer_separator -->
+    <hr>
+    <div class="last-footer">
+      <!-- add last footer for copyright info -->
+      <p>&copy; 2023 RainyDays | All Rights Reserved</p>
+    </div>
+  </footer>
+  
+</body>
+
+</html>

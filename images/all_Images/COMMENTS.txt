@@ -1,0 +1,14 @@
+Jackets Fitting in frames  may be you have to use auto layout  to resize {DONE}
+
+
+Feel safe background should be removed and be resized away from man's head {DONE}
+
+Then "Customer  Care Service"  Care is missing {DONE}
+
+Then the space between product lD and fitting info is big   Should be reduced {DONE}
+
+Payment was successful and thanks for shopping with us should be aligned in the middle of boxes{DONE}
+
+"50% off every items over Kr. 1000" under the  jackets on cart page. {DONE}
+
+Change at least one of the testimonials to Sweden or Netherlands because Ugandans do not need such jackets {DONE}
